@@ -1,5 +1,5 @@
 # M5Stack-SpaceShooter
-Space Invaders knock-off for M5Stack
+Space Invaders knock-off for the M5Stack.
 <br />
 <br />
 Written by Tyler Edwards for the Hackerbox #0020 badge -  https://github.com/HailTheBDFL/
