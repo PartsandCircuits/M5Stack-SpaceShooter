@@ -6,8 +6,6 @@
  <img src="https://github.com/PartsandCircuits/M5Stack-SpaceShooter/blob/master/Screenshot.PNG" width="250">
 </p>
 
-<br />
-<br />
 
 ## About
 
@@ -18,8 +16,3 @@
 - Ported to the M5Stack by [macsbug](https://macsbug.wordpress.com/2018/01/12/esp32-spaceshooter-with-m5stack/)
 
 <br />
-<br />
-
-
-
-
