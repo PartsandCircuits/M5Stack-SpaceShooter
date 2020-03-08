@@ -13,6 +13,10 @@
 // Github:https://macsbug.wordpress.com/2018/01/12/esp32-spaceshooter-with-m5stack/
 //===================================================================
 #include <M5Stack.h>
+
+// ==== config ====
+const int roti = 1;  // 0-3 per https://learn.adafruit.com/adafruit-gfx-graphics-library/rotating-the-display
+
 //============================= game variables =========================
 unsigned long offsetM = 0;
 unsigned long offsetT = 0;
@@ -91,7 +95,7 @@ void setup() {
   memset(aFireY, 0, 5);
   memset(aFireAge, 0, 5);
   M5.begin();
-  M5.Lcd.setRotation(0);//M5.Lcd.setRotation(3);
+  M5.Lcd.setRotation(roti);
   M5.Lcd.fillScreen(ILI9341_BLACK);
   M5.Lcd.setTextColor(0x5E85);
   M5.Lcd.setTextSize(4);
